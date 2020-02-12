@@ -1,11 +1,28 @@
 function mostrar()
 {
 //tomo la edad  
-var mesDelAño = document.getElementById('mes').value;
+var mesDelAnio = document.getElementById('mes').value;
 
-//alert (mesDelAño);
+//alert (mesDelAnio);
 	
-	
+switch (mesDelAnio){
+
+    case "Noviembre":
+    case "Abril":
+    case "Junio":
+    case "septiembre":
+        
+        alert("Este mes termina en 30");
+        break;
+    case "Febrero":
+
+        alert("Este mes termina en 29");
+        break;
+    default:
+
+        alert("Este mes termina en 31");
+
+     
 
 
 
