@@ -10,7 +10,7 @@ var mesDelAnio = document.getElementById('mes').value;
             alert("Este mes tiene 29 días");
             break;
         default:
-            alert("Este mes tiene más de 30 días");
+            alert("Este mes tiene más de 30 días o más días");
             break;   
         }
 
